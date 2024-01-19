@@ -1,0 +1,33 @@
+Source: python-flask
+Section: python
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Wong Hoi Sing Edison <hswong3i@pantarei-design.com>
+Homepage: https://github.com/pallets/flask/tags
+Vcs-Browser: https://github.com/alvistack/pallets-flask
+Vcs-Git: https://github.com/alvistack/pallets-flask.git
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 10),
+ dh-python,
+ fdupes,
+ python3-dev,
+ python3-setuptools,
+
+Package: python3-flask
+Architecture: all
+Description: A simple framework for building complex web applications
+ Flask is a lightweight WSGI web application framework. It is designed to
+ make getting started quick and easy, with the ability to scale up to
+ complex applications. It began as a simple wrapper around Werkzeug and
+ Jinja and has become one of the most popular Python web application
+ frameworks.
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ ${python3:Depends},
+ python3,
+ python3-click (>= 7.1.2),
+ python3-itsdangerous (>= 2.0),
+ python3-jinja2 (>= 3.0),
+ python3-werkzeug (>= 2.0),
