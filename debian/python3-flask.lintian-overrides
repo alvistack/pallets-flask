@@ -1,0 +1,4 @@
+python3-flask: copyright-without-copyright-notice
+python3-flask: initial-upload-closes-no-bugs
+python3-flask: no-manual-page
+python3-flask: zero-byte-file-in-doc-directory
