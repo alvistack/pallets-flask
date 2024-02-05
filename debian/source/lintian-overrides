@@ -1,0 +1,5 @@
+python-flask source: file-without-copyright-information
+python-flask source: no-debian-changes
+python-flask source: source-contains-prebuilt-windows-binary
+python-flask source: source-is-missing
+python-flask source: source-package-encodes-python-version

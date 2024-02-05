@@ -3,14 +3,14 @@ name = "Flask"
 version = "3.1.1"
 description = "A simple framework for building complex web applications."
 readme = "README.md"
-license = "BSD-3-Clause"
-license-files = ["LICENSE.txt"]
+license = {file = "LICENSE.txt"}
 maintainers = [{name = "Pallets", email = "contact@palletsprojects.com"}]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Environment :: Web Environment",
     "Framework :: Flask",
     "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
     "Operating System :: OS Independent",
     "Programming Language :: Python",
     "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
