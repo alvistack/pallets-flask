@@ -1,0 +1,5 @@
+python-flask (100:3.1.2-1) UNRELEASED; urgency=medium
+
+  * https://github.com/pallets/flask/releases/tag/3.1.2
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Wed, 20 Aug 2025 17:00:47 +0800
